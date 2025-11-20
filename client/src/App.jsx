@@ -2,6 +2,7 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import MortgageCalculator from './components/MortgageCalculator';
+import AboutUs from './components/AboutUs';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
               <Route path="/" element={<MortgageCalculator view="all" />} />
               <Route path="/rates" element={<MortgageCalculator view="rates" />} />
               <Route path="/calculators" element={<MortgageCalculator view="calculator" />} />
+              <Route path="/about" element={<AboutUs />} />
             </Routes>
 
           </div>

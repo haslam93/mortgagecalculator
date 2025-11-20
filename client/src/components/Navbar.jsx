@@ -15,6 +15,7 @@ export default function Navbar() {
                 <Link to="/" className="bg-purple-800 px-3 py-2 rounded-md text-sm font-medium">Home</Link>
                 <Link to="/rates" className="hover:bg-purple-700 px-3 py-2 rounded-md text-sm font-medium">Mortgage Rates</Link>
                 <Link to="/calculators" className="hover:bg-purple-700 px-3 py-2 rounded-md text-sm font-medium">Calculators</Link>
+                <Link to="/about" className="hover:bg-purple-700 px-3 py-2 rounded-md text-sm font-medium">About Us</Link>
               </div>
             </div>
           </div>
