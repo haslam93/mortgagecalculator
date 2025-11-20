@@ -1,4 +1,4 @@
-# OptimalBlue Bank App
+# OptimalGreen Bank App
 
 A 3-tier mortgage application with a React frontend, Node.js Express backend, and SQLite database.
 
